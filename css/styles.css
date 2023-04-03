@@ -1,9 +1,43 @@
 :root {
     --brand-color: #2E2F42;
+    --brands-color: #4d5ae5;
 }
 /* Body */
-.body{ color: #434445;
+.body{ color: #434455;
 font-family: 'Roboto', sans-serif;
 background-color: #fff;}
 
 /* Header */
+.link{ font-family: "Raleway", sans-serif;
+line-height: 1.17;
+font-size: 18px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--brands-color);
+text-decoration: none;}
+.link-span{color: var(--brand-color)}
+/* navigation */
+.list{list-style: none;}
+.link-nav{color: var(--brand-color);
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+text-decoration: none;}
+.link-nav:hover, .link-nav:focus{color: #404BBF; }
+/* address */
+.lists-add{list-style: none;
+}
+.link-add{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: inherit;
+        text-decoration: none;
+}
+.link-add:hover,
+.link-add:focus {color: #404BBF;}
