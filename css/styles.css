@@ -4,7 +4,7 @@
     --text-color: #434455;
 }
 /* Body */
-.body{ color: #434455;
+.body{ color: var(--text-color);
 font-family: 'Roboto', sans-serif;
 background-color: #fff;}
 
