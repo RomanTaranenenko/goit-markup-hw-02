@@ -9,8 +9,9 @@
 /* Body */
 .body{ color: var(--text-color);
 font-family: 'Roboto', sans-serif;
-background-color: var(--white-color);}
-
+background-color: var(--white-color);
+}
+.lnk{text-decoration: none;}
 /* Header */
 .nav>.logo.link{ 
 font-family: "Raleway", sans-serif;
@@ -33,6 +34,7 @@ text-decoration: none;}
 .nav-link.link:hover, 
 .nav-link.link:focus{color: var(--hover-color); }
 /* address */
+.address{font-style: normal}
 .add.link{
         font-size: 16px;
         line-height: 1.5;
