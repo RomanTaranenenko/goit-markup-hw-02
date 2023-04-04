@@ -11,7 +11,7 @@
 font-family: 'Roboto', sans-serif;
 background-color: var(--white-color);
 }
-.lnk{text-decoration: none;}
+.link{text-decoration: none;}
 /* Header */
 .nav>.logo.link{ 
 font-family: "Raleway", sans-serif;
