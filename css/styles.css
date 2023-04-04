@@ -25,14 +25,14 @@ text-decoration: none;}
 .logo-span{color: var(--brand-color)}
  /* navigation */
 .list{list-style: none;}
-.nav-link.link{color: var(--brand-color);
+.nav-link{color: var(--brand-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;}
-.nav-link.link:hover, 
-.nav-link.link:focus{color: var(--hover-color); }
+.nav-link:hover, 
+.nav-link:focus{color: var(--hover-color); }
 /* address */
 .address{font-style: normal}
 .add.link{
