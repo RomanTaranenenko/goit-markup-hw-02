@@ -18,7 +18,7 @@ text-transform: uppercase;
 color: var(--brands-color);
 text-decoration: none;}
 .logo-span{color: var(--brand-color)}
-/* navigation */
+ /* navigation */
 .list{list-style: none;}
 .link{color: var(--brand-color);
 font-family: 'Roboto', sans-serif;
@@ -27,7 +27,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;}
-.link:hover, .link-nav:focus{color: #404BBF; }
+.link:hover, 
+.link:focus{color: #404BBF; }
 /* address */
 .address{font-style: normal;}
 .add.link{
@@ -125,4 +126,16 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-/* top line */
+/* Portfolio BTN */
+.list-btn{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--brands-color);
+    background: #F4F4FD;
+    cursor: pointer;}
+    .list-btn:hover,
+    .list-btn:focus{background: #404BBF; color: #fff;}
