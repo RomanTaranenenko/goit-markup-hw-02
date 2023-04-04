@@ -1,6 +1,7 @@
 :root {
     --brand-color: #2E2F42;
     --brands-color: #4d5ae5;
+    --text-color: #434455;
 }
 /* Body */
 .body{ color: #434455;
@@ -37,7 +38,7 @@ text-decoration: none;}
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-color);
         text-decoration: none;
         
 }
